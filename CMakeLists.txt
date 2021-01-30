@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.17)
 project(atcoder)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 
 add_executable(ABC116_C ABC116/C/main.cpp)
 add_executable(ABC189_A ABC189/A/main.cpp)
@@ -21,3 +21,7 @@ add_executable(Atcoder_Beginners_Selection_Kagami_Mochi Atcoder_Beginners_Select
 add_executable(Atcoder_Beginners_Selection_Otoshidama Atcoder_Beginners_Selection/Otoshidama/main.cpp)
 add_executable(Atcoder_Beginners_Selection_Day_Dream Atcoder_Beginners_Selection/Day_Dream/main.cpp)
 add_executable(Atcoder_Beginners_Selection_Traveling Atcoder_Beginners_Selection/Traveling/main.cpp)
+add_executable(ABC190_A ABC190/A/main.cpp)
+add_executable(ABC190_B ABC190/B/main.cpp)
+add_executable(ABC190_C ABC190/C/main.cpp)
+add_executable(ABC190_D ABC190/D/main.cpp)
