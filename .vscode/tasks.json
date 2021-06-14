@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C/C++: g++-10 compile file",
+            "command": "${workspaceFolder}/compile.sh",
+            "args": [
+                "${fileExtname}",
+                "${file}",
+                "${workspaceFolder}/tmp/out"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
