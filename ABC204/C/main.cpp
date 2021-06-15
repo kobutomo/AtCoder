@@ -4,7 +4,7 @@ using namespace std;
 #define ll long long
 
 void rec(vector<vector<int>> &G, bool ans[], vector<int> &cur) {
-  for (auto &p:cur) {
+  for (auto &p : cur) {
     if (!ans[p]) {
       ans[p] = true;
       rec(G, ans, G.at(p));
@@ -29,7 +29,8 @@ int main() {
     an[i] = true;
     auto cur = G.at(i);
     rec(G, an, cur);
-    for (bool j : an) if (j)ans++;
+    for (bool &j : an)
+      if (j) ans++;
   }
 
   cout << ans << endl;
